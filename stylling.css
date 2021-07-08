@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+h2 {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(196, 194, 194);
+    color: white;
+    font-family: 'Righteous', cursive; 
+    font-size: 2em;
+    background-color: #D98E2B;    
+}
+
+span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+.tital {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    background-image: linear-gradient(to bottom, #E6B922, #F0AD24);
+    margin: 0 auto;
+    transform: translate(12.5%, 50%);
+    border-radius: 10px;
+}
+
+#emojis-container {
+    text-align: center;
+}
+
+div > input {
+    border-style: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+    /* border: #E65822 2px solid; */
+}
+
+input:focus {
+    outline: #D98E2B 2px solid;
+}
+
+.input-and-btn {
+    display:inline-block;
+    transform: translate(45%, 15%);
+    box-shadow: 0 0 20px #fff;
+    background-color: #E6B922;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.input-and-btn > .input-btn {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.btn > div {
+    padding: 10px;
+    text-align: center;
+}
+
+.first-btn button {
+    border-style: none;
+    background-color: #F07A24;
+    padding: 5px;
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    cursor: pointer;
+}
+
+.second-btn button {
+    border-style: none;
+    background-color: #E65822;
+    padding: 5px;
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    cursor: pointer;
+}
